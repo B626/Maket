@@ -38,7 +38,7 @@
 
   }
   
-  .name{
+  .active{
     color: #4CD7D2;
   }
 
@@ -59,7 +59,7 @@
     background-color: #F6F6F6;
   }
 
-  .header_main_text {
+  .main-screen_title {
     display: flex;
     justify-content: center;
     font-family: 'Montserrat', sans-serif;
@@ -69,27 +69,20 @@
     font-weight: 400;
   }
 
-  .header_secondary_text {
+  .main-screen_subtitle {
     display: flex;
     justify-content: center;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 20px;
     color: #808080;
     padding-top: 5px;
-  }
-
-  .header_secondary_text_two{
-    display: flex;
-    justify-content: center;
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 20px;
-    padding-bottom: 70px;
-    color: #808080;
+    text-align: center;
+    padding: 0 0 70px 0;
   }
 
   .image_item {
-    width: 375px;
-    height: 375px;
+    width: 350px;
+    height: 350px;
     transition: 1s; 
   }
 
@@ -102,6 +95,7 @@
     background-color: #141414;
     font-size: 12px;
     padding-bottom: 60px;
+    z-index: 50;
   }
 
   .footer_main_text{
@@ -112,3 +106,10 @@
     transform: scale(1.1); /* Увеличиваем масштаб */
     z-index: 5;
    }
+
+.cat_section{
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0 10px 0;
+}
